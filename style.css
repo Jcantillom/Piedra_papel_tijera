@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&display=swap');
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background: -webkit-linear-gradient(top, #0a1330, #90aacf);
+}
+header{
+	
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	text-decoration: initial;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	box-shadow: #b5b9c4 5px 5px 10px;
+	background: -webkit-linear-gradient(top, #e25b4d, #6f1428);
+	text-decoration:double;
+}
+header>h1{
+  	font-size: 50px;}
+
+.marcador{
+	border: 3px solid#fff;
+	margin: 100px auto;
+	width: 500px;
+	height: 100px;
+	color: rgb(17, 16, 16);
+	font-size: 70px;
+	font-weight: 700;
+	border-radius: 10px;
+	text-align: center;
+	padding: 15px;
+	position: relative;
+	background: -webkit-linear-gradient(top, #fffefe, #7e7a7b);
+}
+
+
+.badge{
+	background: -webkit-linear-gradient(top, #e25b4d, #6f1428);
+	font-size: 20px;
+	color: #fffefe;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 20px 2px;
+}
+
+.user-label{
+	position: absolute;
+	top: auto;
+	left: -25px;
+	height: 70%;
+	width: 30%;
+}
+ .comp-label{
+	position: absolute;
+	top: auto;
+	right: -25px;
+	height: 70%;
+	width: 30%;
+}
+#user-score, #comp-score{
+	padding: 5px;
+	font-size: hsl(229, 64%, 46%);
+}
+
+.result{
+	font-size: 40px;
+	color: #fff;
+}
+.result>p{
+	text-align: center;
+}
+
+.opciones{
+	text-align: center;
+	margin: 100px 0;
+	
+
+}
+
+
+
+
+.choice{
+	
+	display: inline-block;
+	border: 20px solid rgb(66, 87, 117);
+	border-radius: 50%;
+	background: rgb(196, 208, 226);
+	padding: 40px;
+	margin: 20px;
+	box-shadow: #7683a7 5px 5px 10px;
+	transition: all 0.3s ease;
+	
+}
+
+
+
+
+
+.choice:hover{
+	background: -webkit-linear-gradient(top, #f8503e, #521d28);
+	cursor: pointer;
+
+}
+
+
+
+#accion{
+	text-align: center;
+	font-size: 40px;
+	color: rgb(17, 17, 17);
+	border: 1px solidrgb(197, 188, 236);
+	margin: 100px auto;
+	width: 250px;
+	color: rgb(17, 17, 17);
+	font-size: 30px;
+	font-weight: 700;
+	border-radius: 15px;
+	text-align: center;
+	padding: 5px;
+	background: -webkit-linear-gradient(top, #fffefe, #7e7a7b);
+	position: relative;}
+	
+
+
+.azul{
+	border: 20px solid #0044ff;
+	box-shadow: 0 0 10px #6689be;
+}
+
+.rojo{
+	border: 20px solid #d30e0e;
+	box-shadow: 0 0 10px #cc2a2a;
+}
+
+.amarillo{
+	border: 20px solid #f7e017;
+	box-shadow: 0 0 10px #bbb341;
+
+}
+
+figcaption{
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5px;
+}
+	
